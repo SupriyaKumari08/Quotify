@@ -1,0 +1,60 @@
+body{
+    background-color:#FF6000;
+    color: #454545;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    color:aliceblue ;
+    font-family: 'Dancing Script', cursive;
+}
+.main{
+    background-color: #FFE6C7;
+    width: 40rem;
+    margin: auto;
+    height: 40rem;
+    border-radius: 20px;
+}
+.card{
+    margin: auto;
+    height: 18rem;
+    border-radius: 20px;
+}
+.card-title{
+    text-transform: capitalize;
+}
+footer{
+    margin-top: 6rem;
+    font-weight: bold;
+}
+.content{
+    margin-top: 4rem;
+}
+.author{
+    margin-top: 1rem;
+    text-align: end;
+}
+input{
+    width: 20rem;
+    border: none;
+    height: 3rem;
+    border-radius: 20px;
+    text-align: start;
+    padding-left: 1rem;
+    color: #454545;
+}
+input::placeholder{
+    text-align: start;
+    padding-left: 1rem;
+}
+button i {
+    border: none;
+}
+.btn img{
+    position: absolute;
+    height: 2rem;
+    margin-left: -4rem;
+    margin-top: -1rem;
+}
